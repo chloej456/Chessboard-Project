@@ -1,0 +1,106 @@
+/*PINK CHESSBOARD*/
+
+/*MAIN STYLING*/
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main, body {
+    background-image: url(https://img.freepik.com/premium-photo/pink-marble-texture-background-with-detailed-structure-high-resolution-bright-luxurious_38607-486.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+#nav-bar {
+    margin-top: 15px;
+    transition: smooth;
+    margin-bottom: 0px;
+    font-size: 1.25em;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+/*HEADER STYLING*/
+
+h1 {
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-bottom: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #bc2952;
+    border: 0.2rem solid #bc2952;
+    border-radius: 2rem;
+    padding: 0.4em;
+    background-color: white;
+}
+
+a:hover {
+    background-color: #fff2fd;
+}
+
+/*CHESSBOARD STYLING*/
+
+#chessboard {
+    border-spacing: 0;
+    border-collapse: collapse;
+    align-self: center;
+    background-color: white;
+}
+
+#chessboard th {
+    padding: 21px;
+}
+
+#chessboard td {
+    width: 21px;
+    height: 21px;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    text-align: center;
+    height: 21px;
+    width: 21px;
+}
+
+p {
+    font-size: 19px;
+    color: #bc2952;
+}
+
+th {
+    color: #bc2952;
+    font-weight: bold;
+    height: 21px;
+    width: 21px;
+}
+
+/*BOX STYLING IN CHESSBOARD*/
+
+.box2 {
+    background-color: #f6b2c5;
+}
+
+.box1 {
+    background-color: #fff2fd;
+}
